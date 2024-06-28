@@ -1,0 +1,12 @@
+national:
+  geolevel:
+    level: Municipal
+  votedates: null
+  from_date: "1980-01-01"
+  to_date: null
+  lang: "DE"
+  cache_dir: null
+cantonal: null
+swissvotes:
+  geolevel:
+    level: Federal

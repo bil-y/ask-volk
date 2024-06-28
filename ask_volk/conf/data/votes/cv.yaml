@@ -1,0 +1,6 @@
+votes:
+  cantonal:
+    filters:
+      - key: year
+        op: ge
+        value: 1980

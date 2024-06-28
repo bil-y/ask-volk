@@ -1,0 +1,491 @@
+data:
+  # # Permanent resident population by year and municipality.
+  # - source:
+  #     2000: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/12_131.csv
+  #     2007: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/11_131.csv
+  #     2008: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/2877_131.csv
+  #     2009: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/7061_131.csv
+  #     2010: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/10621_131.csv
+  #     2011: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15161_131.csv
+  #     2012: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15934_131.csv
+  #     2013: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/17024_131.csv
+  #     2014: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/18223_131.csv
+  #     2015: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/19628_131.csv
+  #     2016: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/20748_131.csv
+  #     2017: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/21827_131.csv
+  #     2018: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/23027_131.csv
+  #     2019: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/24208_131.csv
+  #     2020: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/25203_131.csv
+  #     2021: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/26207_131.csv
+  #     2022: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/27090_131.csv
+  #   format: statlas
+  #   filters: []
+  #   columns: { "VALUE": "permanent_resident_population" }
+  #   pivot:
+  #     index: []
+  #     columns: []
+  #     values: []
+  #   geolevel:
+  #     level: Municipal
+  #   # Urban population by year and canton.
+  # - source:
+  #     2011: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15754_131.csv
+  #     2012: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15941_131.csv
+  #     2013: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/18774_131.csv
+  #     2014: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/18775_131.csv
+  #     2015: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/19624_131.csv
+  #     2016: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/20715_131.csv
+  #     2017: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/21873_131.csv
+  #     2018: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/23033_131.csv
+  #     2019: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/24214_131.csv
+  #     2020: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/25209_131.csv
+  #     2021: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/26219_131.csv
+  #     2022: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/27100_131.csv
+  #   format: statlas
+  #   filters: []
+  #   columns: { "VALUE": "urban_population" }
+  #   pivot:
+  #     index: []
+  #     columns: []
+  #     values: []
+  #   geolevel:
+  #     level: Cantonal
+  #   # Population density by year and municipality (total area).
+  # - source:
+  #     1980: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14621_131.csv
+  #     1990: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14622_131.csv
+  #     2000: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14641_131.csv
+  #     2008: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/2882_131.csv
+  #     2009: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/7221_131.csv
+  #     2010: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/10665_131.csv
+  #     2011: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15181_131.csv
+  #     2012: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/16048_131.csv
+  #     2013: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/17030_131.csv
+  #     2014: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/18253_131.csv
+  #     2015: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/19629_131.csv
+  #     2016: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/20695_131.csv
+  #     2017: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/21833_131.csv
+  #     2018: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/23034_131.csv
+  #     2019: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/24215_131.csv
+  #     2020: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/25233_131.csv
+  #     2021: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/26220_131.csv
+  #     2022: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/27101_131.csv
+  #   format: statlas
+  #   filters: []
+  #   columns: { "VALUE": "population_density_total_area" }
+  #   pivot:
+  #     index: []
+  #     columns: []
+  #     values: []
+  #   geolevel:
+  #     level: Municipal
+
+  #   # Population density by year and municipality (productive area).
+  # - source:
+  #     1980: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14883_131.csv
+  #     1990: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14861_131.csv
+  #     2000: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/14881_131.csv
+  #     2008: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/2881_131.csv
+  #     2009: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/7261_131.csv
+  #     2010: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/10671_131.csv
+  #     2011: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15184_131.csv
+  #     2012: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/15945_131.csv
+  #     2013: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/17033_131.csv
+  #     2014: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/18256_131.csv
+  #     2015: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/19630_131.csv
+  #     2016: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/20698_131.csv
+  #     2017: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/21836_131.csv
+  #     2018: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/23037_131.csv
+  #     2019: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/24218_131.csv
+  #     2020: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/25213_131.csv
+  #     2021: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/26223_131.csv
+  #     2022: https://www.atlas.bfs.admin.ch/core/projects/13/xshared/csv/27104_131.csv
+  #   format: statlas
+  #   filters: []
+  #   columns: { "VALUE": "population_density_productive_area" }
+  #   pivot:
+  #     index: []
+  #     columns: []
+  #     values: []
+  #   geolevel:
+  #     level: Municipal
+
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/26645070/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Geschlecht"
+        op: "!="
+        value: "Geschlecht - Total"
+      - key: "Staatsangehörigkeit (Kategorie)"
+        op: "!="
+        value: "Staatsangehörigkeit - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns:
+        [
+          "Demografische Komponente",
+          "Geschlecht",
+          "Staatsangehörigkeit (Kategorie)",
+        ]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedCantonDistrictMunicipalityWithNumber
+
+  # # Deaths by year and municipality.
+  # - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/32007848/master"
+  #   # The format of the data source.
+  #   #   "stattab" for BFS StatTab PX files.
+  #   #   "statlas" for BFS Statlas CSV files.
+  #   format: "stattab"
+  #   filters:
+  #     - key: "Geschlecht"
+  #       op: "!="
+  #       value: "Geschlecht - Total"
+  #     - key: "Staatsangehörigkeit (Kategorie)"
+  #       op: "!="
+  #       value: "Staatsangehörigkeit - Total"
+  #     - key: "Zivilstand"
+  #       op: "!="
+  #       value: "Zivilstand - Total"
+  #   # Columns to select after pivoting.
+  #   #   If columns is a list, will select all columns in the list.
+  #   #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+  #   columns: {}
+  #   # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+  #   # Pivotting is done after filtering but before selecting columns.
+  #   pivot:
+  #     index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+  #     columns:
+  #       [
+  #         "Altersklasse",
+  #         "Geschlecht",
+  #         "Zivilstand",
+  #         "Staatsangehörigkeit (Kategorie)",
+  #       ]
+  #     values: ["DATA"]
+  #   geolevel:
+  #     level: Municipal
+  #     column: NestedCantonDistrictMunicipality
+
+  # Divorces by year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/32007788/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Staatsangehörigkeit (Kategorie) Partner/in 1"
+        op: "!="
+        value: "Staatsangehörigkeit (Kategorie) Partner/in 1 - Total"
+      - key: "Staatsangehörigkeit (Kategorie) Partner/in 2"
+        op: "!="
+        value: "Staatsangehörigkeit (Kategorie) Partner/in 2 - Total"
+      - key: "Ehedauer"
+        op: "!="
+        value: "Ehedauer - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns:
+        [
+          "Staatsangehörigkeit (Kategorie) Partner/in 1",
+          "Staatsangehörigkeit (Kategorie) Partner/in 2",
+          "Ehedauer",
+        ]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedCantonDistrictMunicipalityWithNumber
+
+  # Births by year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/32007820/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Geschlecht des Kindes"
+        op: "!="
+        value: "Geschlecht des Kindes - Total"
+      - key: "Staatsangehörigkeit (Kategorie) des Kindes"
+        op: "!="
+        value: "Staatsangehörigkeit (Kategorie) des Kindes - Total"
+      - key: "Altersklasse der Mutter"
+        op: "!="
+        value: "Altersklasse der Mutter - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns:
+        [
+          "Altersklasse der Mutter",
+          "Staatsangehörigkeit (Kategorie) des Kindes",
+          "Geschlecht des Kindes",
+        ]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedCantonDistrictMunicipalityWithNumber
+
+  # Founding, closure, and count of businesses and their employees per year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28345061/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters: []
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Wirtschaftssektor", "Beobachtungseinheit"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: MunicipalityWithNumber
+
+  # Employers and employees by sector, year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/26665325/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Wirtschaftssektor"
+        op: "!="
+        value: "Wirtschaftssektor - Total"
+      - key: "Beobachtungseinheit"
+        op: "!="
+        value: "Beschäftigte"
+      - key: "Beobachtungseinheit"
+        op: "!="
+        value: "Vollzeitäquivalente"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Wirtschaftssektor", "Beobachtungseinheit"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: MunicipalityWithNumber
+
+  # Everything you every wanted to know about agriculture.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/31846452/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Beobachtungseinheit"
+        op: "!="
+        value: "Beschäftigte Total"
+      - key: "Betriebssystem"
+        op: "!="
+        value: "Betriebssystem - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Betriebssystem", "Beobachtungseinheit"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedCantonDistrictMunicipalityWithNumber
+
+  # Everything you every wanted to know about energy use.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/27705410/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Wirtschaft und Haushalte"
+        op: "in"
+        value:
+          [
+            "-- Primärer Sektor",
+            "-- Sekundärer Sektor",
+            "-- Tertiärer Sektor",
+            "- Haushalte",
+          ]
+      - key: "Energieträger"
+        op: "not in"
+        value:
+          [
+            "Energieträger - Total",
+            "1. Fossile Energieträger",
+            "1.1. Erdölprodukte",
+            "3. Erneuerbare Energien",
+          ]
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Wirtschaft und Haushalte", "Energieträger", "Masseinheit"]
+      values: ["DATA"]
+    geolevel:
+      level: Federal
+      column: Federal
+
+  # Number of (free) flats by year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/27565760/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Anzahl Wohnräume"
+        op: "!="
+        value: "Anzahl Wohnräume - Total"
+      - key: "Leerwohnung (Typ)"
+        op: "!="
+        value: "Leerwohnung (Typ) - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Leerwohnung (Typ)", "Anzahl Wohnräume", "Anzahl/Anteil"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedRegionDistrictMunicipality # Actually region, district, municipality but we don't have the first level.
+
+  # Real estate investment by year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/26665068/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Art der Arbeiten"
+        op: "!="
+        value: "Art der Arbeiten - Total"
+      - key: "Kategorie der Bauwerke"
+        op: "!="
+        value: "Kategorie der Bauwerke - Total"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns:
+        ["Art der Arbeiten", "Kategorie der Bauwerke", "Beobachtungseinheit"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedRegionDistrictMunicipality # Actually region, district, municipality but we don't have the first level; also: weird ordering in the data.
+
+  # Education expenditure by year and municipality.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/29105843/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters: []
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Bildungsstufe", "Ausgabenart"]
+      values: ["DATA"]
+    geolevel:
+      level: Cantonal
+      column: Canton
+
+  # Nationalratswahlen.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/28725591/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Ergebnisse"
+        op: "!="
+        value: "Parteistärke in %"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Partei", "Ergebnisse"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedDistrictMunicipality
+
+    # Nationalratswahlen.
+  - source: "https://dam-api.bfs.admin.ch/hub/api/dam/assets/12948000/master"
+    # The format of the data source.
+    #   "stattab" for BFS StatTab PX files.
+    #   "statlas" for BFS Statlas CSV files.
+    format: "stattab"
+    filters:
+      - key: "Ergebnisse"
+        op: "!="
+        value: "Wahlbeteiligung [%]"
+    # Columns to select after pivoting.
+    #   If columns is a list, will select all columns in the list.
+    #   If columns is a dict, will select all columns in the list of dict's keys and rename them to the dict's values.
+    columns: {}
+    # If pivot is not null, will pivot the table using the given columns (c.f. pandas.pivot).
+    # Pivotting is done after filtering but before selecting columns.
+    pivot:
+      index: ["YEAR", "GEO_ID", "GEO_NAME", "GEO_LV"]
+      columns: ["Ergebnisse"]
+      values: ["DATA"]
+    geolevel:
+      level: Municipal
+      column: NestedCantonDistrictMunicipality
+
+cache_dir: "data/socioeconomic"

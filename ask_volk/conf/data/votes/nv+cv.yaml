@@ -1,0 +1,13 @@
+national:
+  geolevel: "municipality"
+  vote_dates: null
+  from_date: "1980-01-01"
+  to_date: null
+  lang: "de"
+  cache_dir: null
+cantonal:
+  geolevel: "municipality"
+  vote_dates: null
+  from_date: "1980-01-01"
+  to_date: null
+  cache_dir: null

@@ -1,0 +1,10 @@
+defaults:
+  - base_config
+  - data: baseline
+  - harmonization: default
+  - text_model: external
+  - vote_model: hierarchical
+  - _self_
+
+output_dir: /home/bily/ETH/ask-volk-today/data/intermediate
+debug: False

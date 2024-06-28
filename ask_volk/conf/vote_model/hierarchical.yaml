@@ -1,0 +1,29 @@
+model: hierarchical
+params:
+  # (Hyper-)priors for intercepts
+  alpha_fed_mu: 0
+  alpha_fed_sigma: 1
+
+  alpha_can_mu:
+    mu: 0
+    sigma: 1
+  alpha_can_sigma:
+    shape: 1
+    scale: 1
+
+  alpha_mun_mu:
+    mu: 0
+    sigma: 1
+  alpha_mun_sigma:
+    shape: 1
+    scale: 1
+
+  # (Hyper-)priors for slopes
+  beta_mun_mu:
+    mu: 0
+    sigma: 1
+  beta_mun_sigma:
+    shape: 1
+    scale: 1
+
+  
