@@ -12,16 +12,15 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "pyro-ppl==1.9.0",
     "requests==2.31",
-    "dvc==3.49",
-    "dvc_s3==3.1.0",
     "openpyxl==3.1.2",
     "hydra-core==1.3.2",
     "pandas[parquet]==2.2.2",
     "numpy==1.26.4",
     "alive-progress==3.1.5",
     "xgboost==2.1.0",
+    "scikit-learn==1.5.0",
+    "shap==0.46.0",
 ]
 
 [project.optional-dependencies]
@@ -29,6 +28,7 @@ dev = ["ruff==0.4.1", "pytest==8.1.1"]
 
 [project.scripts]
 ask-volk-downloader = "ask_volk.downloader:main"
+ask-volk-trainer = "ask_volk.trainer:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -15,10 +15,12 @@ register_config()
 
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 def main(cfg: Config) -> None:
-    if not cfg.output_dir:
-        output_dir = Path(hydra.core.hydra_config.HydraConfig.get().runtime.output_dir)
+    if not cfg.data_dir:
+        data_dir = (
+            Path(hydra.core.hydra_config.HydraConfig.get().runtime.output_dir) / "intermediate"
+        )
     else:
-        output_dir = Path(cfg.output_dir)
+        data_dir = Path(cfg.data_dir) / "intermediate"
 
     # 0. Initialize the GeoHarmonizer
     mun_harmonizer = MunicipalityHarmonizer(
@@ -30,13 +32,13 @@ def main(cfg: Config) -> None:
     votes_data = VotesLoader(cfg.data.votes).load()
 
     if votes_data.national is not None:
-        votes_data.national.to_csv(output_dir / "national_votes.csv", index=False)
+        votes_data.national.to_csv(data_dir / "national_votes.csv", index=False)
     if votes_data.cantonal is not None:
-        votes_data.cantonal.to_csv(output_dir / "cantonal_votes.csv", index=False)
+        votes_data.cantonal.to_csv(data_dir / "cantonal_votes.csv", index=False)
     if votes_data.swissvotes is not None:
-        votes_data.swissvotes.to_csv(output_dir / "swissvotes.csv", index=False)
+        votes_data.swissvotes.to_csv(data_dir / "swissvotes.csv", index=False)
 
-    controls_dir = output_dir / "controls"
+    controls_dir = data_dir / "controls"
 
     # 2. Load socio-economic data
     with alive_bar(len(cfg.data.socioeconomic.data)) as bar:
