@@ -21,6 +21,14 @@ dependencies = [
     "xgboost==2.1.0",
     "scikit-learn==1.5.0",
     "shap==0.46.0",
+    "beautifulsoup4==4.12.2",
+    "fuzzywuzzy==0.18.0",
+    "poppler==22.12.0",
+    "pdftotext==2.2.2"
+    "pytorch==2.3.0",
+    "transformers==4.37.2"
+    "spacy==3.7.2",
+    "matplotlib==3.8.4"
 ]
 
 [project.optional-dependencies]
