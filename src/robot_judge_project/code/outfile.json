@@ -1,0 +1,492 @@
+{
+ "de": {
+  "short_summary": {
+   "X shape": [
+    142,
+    200
+   ],
+   "X nonzero": "1151/28400",
+   "total voters": {
+    "mse": 0.12341012238335079
+   },
+   "participation": {
+    "mse": 0.000322963676528005
+   },
+   "yes": {
+    "mse": 0.015046336151445355
+   },
+   "no": {
+    "mse": 0.00012165087596687219
+   },
+   "passed": {
+    "accuracy": 0.2857142857142857
+   }
+  },
+  "legal": {
+   "X shape": [
+    140,
+    200
+   ],
+   "X nonzero": "1858/28000",
+   "total voters": {
+    "mse": 0.027197436339285397
+   },
+   "participation": {
+    "mse": 0.025237215116485107
+   },
+   "yes": {
+    "mse": 0.00011231178305127357
+   },
+   "no": {
+    "mse": 0.1942653562963343
+   },
+   "passed": {
+    "accuracy": 0.42857142857142855
+   }
+  },
+  "subject+short_summary+detail+council+initiative+referendum+parlament+legal": {
+   "X shape": [
+    144,
+    200
+   ],
+   "X nonzero": "3609/28800",
+   "total voters": {
+    "mse": 0.0014792899408284025
+   },
+   "participation": {
+    "mse": 0.00029901653384511323
+   },
+   "yes": {
+    "mse": 0.010599075851056234
+   },
+   "no": {
+    "mse": 0.0008189096541077521
+   },
+   "passed": {
+    "accuracy": 0.5
+   }
+  },
+  "subject+short_summary+detail": {
+   "X shape": [
+    142,
+    200
+   ],
+   "X nonzero": "1313/28400",
+   "total voters": {
+    "mse": 0.2843274901835718
+   },
+   "participation": {
+    "mse": 0.0006872726028890228
+   },
+   "yes": {
+    "mse": 0.03236500953393236
+   },
+   "no": {
+    "mse": 0.0246532064811135
+   },
+   "passed": {
+    "accuracy": 0.42857142857142855
+   }
+  },
+  "council+parlament": {
+   "X shape": [
+    100,
+    200
+   ],
+   "X nonzero": "616/20000",
+   "total voters": {
+    "mse": 0.010855167379248559
+   },
+   "participation": {
+    "mse": 0.0932561824198458
+   },
+   "yes": {
+    "mse": 0.02744416747438142
+   },
+   "no": {
+    "mse": 0.05392554916028194
+   },
+   "passed": {
+    "accuracy": 0.4
+   }
+  },
+  "detail": {
+   "X shape": [
+    97,
+    200
+   ],
+   "X nonzero": "287/19400",
+   "total voters": {
+    "mse": 0.0035145829643696814
+   },
+   "participation": {
+    "mse": 0.3350526985126223
+   },
+   "yes": {
+    "mse": 0.010684669160706425
+   },
+   "no": {
+    "mse": 0.5442161398537279
+   },
+   "passed": {
+    "accuracy": 0.5555555555555556
+   }
+  },
+  "council": {
+   "X shape": [
+    97,
+    200
+   ],
+   "X nonzero": "556/19400",
+   "total voters": {
+    "mse": 0.00509332300486093
+   },
+   "participation": {
+    "mse": 0.0003247203356059686
+   },
+   "yes": {
+    "mse": 9.222862311122928e-05
+   },
+   "no": {
+    "mse": 7.984664530603866e-05
+   },
+   "passed": {
+    "accuracy": 0.5555555555555556
+   }
+  },
+  "initiative+referendum": {
+   "X shape": [
+    63,
+    200
+   ],
+   "X nonzero": "100/12600",
+   "total voters": {
+    "mse": 0.4097153982703772
+   },
+   "participation": {
+    "mse": 0.1813812878600254
+   },
+   "yes": {
+    "mse": 0.0019665471294234775
+   },
+   "no": {
+    "mse": 0.10679931859342695
+   },
+   "passed": {
+    "accuracy": 0.3333333333333333
+   }
+  }
+ },
+ "fr": {
+  "subject+short_summary+detail+council+initiative+referendum+parlament+legal": {
+   "X shape": [
+    133,
+    200
+   ],
+   "X nonzero": "3283/26600",
+   "total voters": {
+    "mse": 0.03688600610443375
+   },
+   "participation": {
+    "mse": 0.005715952727779722
+   },
+   "yes": {
+    "mse": 0.0028692309094878743
+   },
+   "no": {
+    "mse": 9.326927547130473e-05
+   },
+   "passed": {
+    "accuracy": 0.46153846153846156
+   }
+  },
+  "short_summary": {
+   "X shape": [
+    131,
+    200
+   ],
+   "X nonzero": "1019/26200",
+   "total voters": {
+    "mse": 0.11216287090158877
+   },
+   "participation": {
+    "mse": 0.07755874186038662
+   },
+   "yes": {
+    "mse": 0.004684265142212172
+   },
+   "no": {
+    "mse": 0.0349267389453298
+   },
+   "passed": {
+    "accuracy": 0.38461538461538464
+   }
+  },
+  "legal": {
+   "X shape": [
+    127,
+    200
+   ],
+   "X nonzero": "1703/25400",
+   "total voters": {
+    "mse": 0.001885730459914266
+   },
+   "participation": {
+    "mse": 0.0003119580364687567
+   },
+   "yes": {
+    "mse": 0.3561089284356489
+   },
+   "no": {
+    "mse": 0.016959006287516905
+   },
+   "passed": {
+    "accuracy": 0.5833333333333334
+   }
+  },
+  "subject+short_summary+detail": {
+   "X shape": [
+    131,
+    200
+   ],
+   "X nonzero": "1234/26200",
+   "total voters": {
+    "mse": 0.0014792899408284025
+   },
+   "participation": {
+    "mse": 0.00033404892790643543
+   },
+   "yes": {
+    "mse": 0.30731110935977735
+   },
+   "no": {
+    "mse": 0.10177894990157577
+   },
+   "passed": {
+    "accuracy": 0.38461538461538464
+   }
+  },
+  "council+parlament": {
+   "X shape": [
+    79,
+    200
+   ],
+   "X nonzero": "633/15800",
+   "total voters": {
+    "mse": 0.0014792899408284023
+   },
+   "participation": {
+    "mse": 0.00037622343733526324
+   },
+   "yes": {
+    "mse": 0.1690002139567959
+   },
+   "no": {
+    "mse": 0.0011589663711584195
+   },
+   "passed": {
+    "accuracy": 0.42857142857142855
+   }
+  },
+  "council": {
+   "X shape": [
+    74,
+    200
+   ],
+   "X nonzero": "585/14800",
+   "total voters": {
+    "mse": 0.0014792899408284025
+   },
+   "participation": {
+    "mse": 0.00035739066222866103
+   },
+   "yes": {
+    "mse": 0.22681719595871294
+   },
+   "no": {
+    "mse": 9.673716248766172e-05
+   },
+   "passed": {
+    "accuracy": 0.42857142857142855
+   }
+  },
+  "detail": {
+   "X shape": [
+    68,
+    200
+   ],
+   "X nonzero": "391/13600",
+   "total voters": {
+    "mse": 0.7860468141179539
+   },
+   "participation": {
+    "mse": 0.01125238837695402
+   },
+   "yes": {
+    "mse": 0.2071181414603007
+   },
+   "no": {
+    "mse": 0.4206258249936432
+   },
+   "passed": {
+    "accuracy": 0.5
+   }
+  }
+ },
+ "it": {
+  "legal": {
+   "X shape": [
+    124,
+    200
+   ],
+   "X nonzero": "1350/24800",
+   "total voters": {
+    "mse": 0.1214657815746208
+   },
+   "participation": {
+    "mse": 0.42691554852291186
+   },
+   "yes": {
+    "mse": 0.17932085591970762
+   },
+   "no": {
+    "mse": 0.257306487336509
+   },
+   "passed": {
+    "accuracy": 0.3333333333333333
+   }
+  },
+  "subject+short_summary+detail+council+initiative+referendum+parlament+legal": {
+   "X shape": [
+    133,
+    200
+   ],
+   "X nonzero": "3096/26600",
+   "total voters": {
+    "mse": 0.4901911831859905
+   },
+   "participation": {
+    "mse": 0.011571911944067377
+   },
+   "yes": {
+    "mse": 8.700628840328129e-05
+   },
+   "no": {
+    "mse": 8.170565960698301e-05
+   },
+   "passed": {
+    "accuracy": 0.5384615384615384
+   }
+  },
+  "short_summary": {
+   "X shape": [
+    129,
+    200
+   ],
+   "X nonzero": "1034/25800",
+   "total voters": {
+    "mse": 0.16668978056670458
+   },
+   "participation": {
+    "mse": 0.6151575200218963
+   },
+   "yes": {
+    "mse": 8.682340874199708e-05
+   },
+   "no": {
+    "mse": 1.822068287654605
+   },
+   "passed": {
+    "accuracy": 0.5833333333333334
+   }
+  },
+  "subject+short_summary+detail": {
+   "X shape": [
+    129,
+    200
+   ],
+   "X nonzero": "1240/25800",
+   "total voters": {
+    "mse": 0.08588207171603664
+   },
+   "participation": {
+    "mse": 0.1455951360041281
+   },
+   "yes": {
+    "mse": 0.006708993156704107
+   },
+   "no": {
+    "mse": 0.024297205950238095
+   },
+   "passed": {
+    "accuracy": 0.4166666666666667
+   }
+  },
+  "detail": {
+   "X shape": [
+    87,
+    200
+   ],
+   "X nonzero": "306/17400",
+   "total voters": {
+    "mse": 0.18294615400726538
+   },
+   "participation": {
+    "mse": 0.006218053941291338
+   },
+   "yes": {
+    "mse": 0.039482391322459384
+   },
+   "no": {
+    "mse": 0.32196118437021637
+   },
+   "passed": {
+    "accuracy": 0.5
+   }
+  },
+  "council": {
+   "X shape": [
+    74,
+    200
+   ],
+   "X nonzero": "632/14800",
+   "total voters": {
+    "mse": 0.0017725920924759123
+   },
+   "participation": {
+    "mse": 0.07309425670006432
+   },
+   "yes": {
+    "mse": 0.01131915661468316
+   },
+   "no": {
+    "mse": 0.1689458303880827
+   },
+   "passed": {
+    "accuracy": 0.42857142857142855
+   }
+  },
+  "council+parlament": {
+   "X shape": [
+    76,
+    200
+   ],
+   "X nonzero": "667/15200",
+   "total voters": {
+    "mse": 0.0014792899408284023
+   },
+   "participation": {
+    "mse": 0.25796684332340625
+   },
+   "yes": {
+    "mse": 0.006719421009041333
+   },
+   "no": {
+    "mse": 6.654430228370244e-05
+   },
+   "passed": {
+    "accuracy": 0.7142857142857143
+   }
+  }
+ }
+}
