@@ -5,7 +5,7 @@ from hydra.core.config_store import ConfigStore
 from omegaconf import MISSING
 
 from ask_volk.config.data import SocioEconConfig, VotesConfig
-from ask_volk.config.model import TextModelConfig, VoteModelConfig
+from ask_volk.config.model import ModelConfig
 
 
 @dataclass
@@ -14,6 +14,7 @@ class DataConfig:
 
     votes: VotesConfig = MISSING
     socioeconomic: SocioEconConfig = MISSING
+    topics: str = MISSING
 
 
 @dataclass
@@ -30,10 +31,10 @@ class Config:
     """Top-level configuration class."""
 
     data: DataConfig = MISSING
-    text_model: TextModelConfig = MISSING
-    vote_model: VoteModelConfig = MISSING
+    model: ModelConfig = MISSING
     harmonization: HarmonizationConfig = MISSING
-    output_dir: Optional[str] = None
+    data_dir: Optional[str] = None
+    model_dir: Optional[str] = None
     debug: bool = False
 
 

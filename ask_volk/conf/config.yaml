@@ -2,9 +2,11 @@ defaults:
   - base_config
   - data: baseline
   - harmonization: default
-  - text_model: external
-  - vote_model: hierarchical
+  - model: default
   - _self_
 
-output_dir: /home/bily/ETH/ask-volk-today/data/intermediate
 debug: False
+# data_dir: /home/bily/ETH/ask-volk/data/
+# model_dir: /home/bily/ETH/ask-volk/models/
+data_dir: /work/ask-volk/data/
+model_dir: /work/ask-volk/models/

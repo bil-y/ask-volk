@@ -2,3 +2,6 @@ defaults:
   - base_data
   - votes: nv+sv
   - socioeconomic: bfs
+
+# topics: /home/bily/ETH/ask-volk/data/processed/summary_topics.csv
+topics: /work/ask-volk/data/processed/summary_topics.csv
