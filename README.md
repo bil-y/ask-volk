@@ -22,7 +22,7 @@ to understand how they work. In any case, they are currently configured to repro
 - Parsing of leaflets has been done combining manual work and using the script `ask_volk/src/robot_judge_project/code/download_data.py`. The resulting file is `ask_volk/data/raw/leaflets/leaflets_merged.csv`, which can be used to reproduce results.
 - To reproduce the dataset, run `ask-volk-downloader`. Note that this will take a long time and consume considerable amounts of memory.
 - To reproduce the topics dataset, run `ask_volk/src/topic_modeling/topic_modeling.py`. This will produce the data in `ask_volk/data/topics/summary_topics.csv`
-- To reproduce the results for **Section 5.1**, ... [TODO]
+- To reproduce the results for **Section 5.1**, run `topic_analysis`
 - To reproduce the results for **Section 5.2**, run `ask-volk-trainer`. You can change the cutoff in `ask_volk/cfg/model/default.yaml`. To change the hyperparameters, edit `ask_volk/trainer.py`.
 Training without controls requires manual modification of the script (i.e., just don't combine the topics and votes with the controls) as these results were produced before controls were added.
 - To reproduce the results for **Section 5.3**, run `ask_volk/notebooks/unknown_municipalities_varying_test_size.ipynb` and `ask_volk/notebooks/unknown_municipalities_varying_preprocessing.ipynb`
